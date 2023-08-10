@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.6;
+    background-color: #fa7b6f;
+    font-family: sans-serif;
+}
+.box{
+    width: 100vh;
+    color: rgb(32, 32, 32);
+    background-color: rgb(255, 231, 97);
+    text-align: center;
+    border-radius: 20px;
+}
+img{
+    max-height: 300px;
+    border-style: solid;
+    border-radius: 15px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+#generate{
+    height: 50px;
+    color: rgb(15, 15, 15);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+#generate:hover{
+    cursor: pointer;
+}
